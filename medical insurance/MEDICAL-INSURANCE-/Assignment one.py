@@ -1,4 +1,5 @@
-
+#MUHOOZI DERICK
+#2024/A/KSD/1263/F
 print("#PART A: DATA ACQUISITION")
 
 print("#Importing the required libraries")
@@ -214,3 +215,4 @@ vif_data["VIF"] = [variance_inflation_factor(X_vif.values, i)
                    for i in range(X_vif.shape[1])]
 print("#Display VIF results")
 print(vif_data)
+
